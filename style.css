@@ -1,0 +1,484 @@
+
+   .top
+        {
+         background-image:linear-gradient( #1a2a6c , #b1038e8a),  url("/images/bg1.jpg");
+            width: 100vw;
+            height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+    
+*
+{
+    letter-spacing: 2px;
+
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.left img 
+{
+    position: absolute;
+    top:15px;
+    left: 30px;
+}
+.right
+{
+    position: absolute;
+    top:25px;
+    left: 500px;
+}
+ a
+{
+    color: white;
+    padding: 10px;
+    margin-left: 0px;
+    text-decoration: none;
+    transition: 2s ease-in-out;
+
+}
+  a:hover
+{
+background-color:rgb(70, 8, 16);
+color:darkolivegreen;
+}
+ a:hover
+{
+background-color:rgb(70, 8, 16);
+color:darkolivegreen;
+}
+
+#center
+{
+    color: white;
+    position: absolute;
+    top:270px;
+    text-align: center;
+    left: 300px;
+}
+#center h2
+{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: bolder;
+}
+#center p
+{
+margin-bottom: 30px;
+letter-spacing: 0px;
+font-size: 20px;
+width: 800px;
+margin-top: 30px;
+}
+#center a
+{
+    color: white;
+    background-color:crimson;
+    border-radius: 100px 100px;
+    
+    position:relative ;
+border: 2px solid red;
+text-decoration: none;
+padding:10px 30px;
+transition: 2s ease-in;
+}
+#center a:hover
+{
+    background-color: pink;
+    color: rebeccapurple;
+}
+
+
+.services
+{
+        
+    position: relative;
+    top:100px;
+    text-align: center;
+    color: black;
+}
+.services img
+{
+    width: 500px;
+    position: relative;
+    top:-220px;
+    left: 350px;
+}
+.services h2
+{
+    letter-spacing: 5px;
+    font-size: 40px;
+    color: rgb(255, 7, 57);
+    margin-bottom: 10px;
+}
+.services p
+{
+    position: relative;
+    left: 200px;
+    width: 1000px;
+}
+.text
+{
+    position: relative;
+    top:30px;
+    width: 800px;
+font-size: 20px;
+}
+.text h2
+{
+    font-size: 40px;
+
+}
+.text h3
+{
+    font-size: 20px;
+    color: orange;
+
+}
+.text p
+{
+    top:20px;
+    position: relative;
+    width: 800px;
+    left: 0px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.text a
+{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    
+    transition: 2s ease;
+    width: 300px;
+    height: 15px;
+    
+    left: 40px;
+    position: relative;
+    
+}
+
+
+#aboutimg img 
+{
+    width: 500px;
+
+    position: relative;
+    top:-250px;
+    height: 300px;
+    left: 380px;
+}
+.services2
+{
+    height: 1050px;
+    position: relative;
+    top:0px;
+
+    text-align: center;
+}
+.services2 h2
+{
+    font-size: 40px;
+    color: red;
+    position: relative;
+    top:50px;
+    letter-spacing: 5px;
+}
+.services2 p
+{
+    position: relative;
+    top:50px;
+}
+.container
+{
+    position: relative;
+    top:80px;
+    
+    width: 100%;
+    display: inline-block;
+}
+.item
+{
+    
+    background-color: antiquewhite;
+    width: 30%;
+    display: inline-block;
+    height: 300px;
+}
+.item1
+{
+     background-color: antiquewhite;
+    width: 30%;
+    display: inline-block;
+    height: 300px;
+    margin-top: 30px;
+}
+.item1 h2
+{
+position: relative;
+top:30px ;
+font-size: 30px;   
+}
+.item1 p
+{
+    font-size: 20px;
+    position: relative;
+    top:60px;
+}
+.item1 img
+{
+    width: 70px;
+    top:30px;
+    position: relative;
+}
+
+.item h2
+{
+position: relative;
+top:30px ;
+font-size: 30px;   
+}
+.item p
+{
+    font-size: 20px;
+    position: relative;
+    top:60px;
+}
+.item img
+{
+    width: 70px;
+}
+
+
+
+.recent 
+{
+    color: black;
+    position: absolute;
+    top:2300px;
+    text-align: center;
+    height: 200vh;
+       
+}
+.recent h2
+{
+    color: red;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    letter-spacing: 5px;
+top:10px;
+margin-bottom: 30px;
+}
+.recent p{
+    position: relative;
+    left: 200px;
+    margin-bottom: 20px;
+}
+.imgcontainer
+{
+    position: relative;
+    left: -40px;
+}
+
+.imgitem img
+{
+ width: 500px;
+   background-position: center;
+
+}
+.imgitem
+{
+ width: 30%;
+ display: inline-block;   
+}
+
+
+.contact
+{
+    position: absolute;
+    top:4250px;
+    text-align: center;
+    color: black;
+}
+.contact h2
+{
+    position: relative;
+    left: 300px;
+    font-size: 50px;
+    color: red;
+
+}
+.contact p
+{
+    position: relative;
+    left: 250px;
+    font-size: 20px;
+}
+.form
+{
+    position: relative;
+    left: 600px;
+    width: 700px;
+}
+.form input
+{
+    border: none;
+    margin-top: 20px;
+    width: 600px;
+    border-bottom: 2px solid black;
+}
+::placeholder
+{
+    color:darkblue;
+    text-align: center;
+}
+.form a
+{
+    position: relative;
+    top:40px;
+    text-decoration: none;
+    background-color:chocolate;
+    padding: 10px 20px;
+     color: white;
+     border-radius: 23px 23px;
+}
+.form input:hover,.form input::after,.form input:active
+{
+    border:2px solid blue;
+font-size: 30px;
+color: blue;
+    background-color: antiquewhite;
+}
+
+.phone
+{
+    position: absolute;
+    top:20px;
+}
+.phone1
+{
+    position: absolute;
+    top:150px;
+}
+.phone h1
+{
+    color:gold;
+    position: relative;
+    top:60px;
+left: 130px;
+}
+.phone1 h1
+{
+    color:goldenrod;
+    position: relative;
+    top:20px;
+    margin-bottom: 10px;
+    left: 70px;
+
+}
+.phone2 h1
+{
+    color:goldenrod;
+    position: relative;
+    top:20px;
+    margin-bottom: 10px;
+    left: 100px;
+
+}
+.phone p
+{
+    position: relative;
+    top:30px;
+    left: 130px;
+}
+.phone2 p
+{
+    position: relative;
+    top:30px;
+    left: 130px;
+}
+.phone1 p
+{
+      position: relative;
+    top:10px;
+    left: 130px;
+}
+.phone1 img
+{
+    position: relative;
+    left: -60px;
+    top:-30px
+}
+.phone img
+{
+    position: relative;
+    left: -20px;
+    top:-30px
+}
+.phone2 img
+{
+    position: relative;
+    left: -50px;
+    top:-30px
+}
+
+
+.phone2
+{
+ position: absolute;
+    top:250px;   
+}
+
+
+
+.review
+{
+    position: relative;
+    top:1100px;
+    height: 500px;
+    background-color:grey;
+    color: white;
+
+}
+.review img
+{
+    position: relative;
+    left: 500px;
+    top:30px;
+    height: 130px;
+    width: 200px;
+}
+.review p
+{
+    top:70px;
+    position: relative;
+    left: 140px;
+    width: 1000px;
+    color: blue;
+    margin-bottom: 30px;
+}
+.review h2
+{
+    top:100px;
+    position: relative;
+    left: 500px;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color:black;
+    margin-bottom: 10px;
+}
+.review h3
+{
+    top:120px;
+    position: relative;
+    left: 520px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: coral;
+}
